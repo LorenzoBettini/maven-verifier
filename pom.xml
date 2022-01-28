@@ -23,7 +23,7 @@
   <parent>
     <groupId>org.apache.maven.shared</groupId>
     <artifactId>maven-shared-components</artifactId>
-    <version>34</version>
+    <version>35-SNAPSHOT</version>
     <relativePath />
   </parent>
 
@@ -34,7 +34,7 @@
   <description>Provides a test harness for Maven integration tests.</description>
 
   <properties>
-    <javaVersion>7</javaVersion>
+    <javaVersion>8</javaVersion>
     <project.build.outputTimestamp>2020-05-03T13:46:40Z</project.build.outputTimestamp>
   </properties>
 
@@ -69,7 +69,7 @@
     <dependency>
       <groupId>org.apache.maven.shared</groupId>
       <artifactId>maven-shared-utils</artifactId>
-      <version>3.3.3</version>
+      <version>4.0.0-SNAPSHOT</version>
     </dependency>
 
     <dependency>
